@@ -35,6 +35,11 @@ et_ET:
   name: Estonian
   path: et
 
+fi_FI:
+  license: Unknown
+  name: Finnish
+  path: ../../extras/fi
+  
 fr_FR:
   license: MPL-2.0
   name: French

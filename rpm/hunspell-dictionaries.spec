@@ -59,6 +59,14 @@ License:        LGPL-2.1
 %{summary}.
 
 
+%package fi_FI
+Summary:        Hunspell Dictionary for Finnish
+License:        Unknown
+
+%description fi_FI
+%{summary}.
+
+
 %package fr_FR
 Summary:        Hunspell Dictionary for French
 License:        MPL-2.0
@@ -125,6 +133,9 @@ cp dictionaries/dictionaries/es/index.dic $RPM_BUILD_ROOT/%{_datadir}/hunspell/e
 cp dictionaries/dictionaries/et/index.aff $RPM_BUILD_ROOT/%{_datadir}/hunspell/et_ET.aff
 cp dictionaries/dictionaries/et/index.dic $RPM_BUILD_ROOT/%{_datadir}/hunspell/et_ET.dic
 
+cp dictionaries/dictionaries/../../extras/fi/index.aff $RPM_BUILD_ROOT/%{_datadir}/hunspell/fi_FI.aff
+cp dictionaries/dictionaries/../../extras/fi/index.dic $RPM_BUILD_ROOT/%{_datadir}/hunspell/fi_FI.dic
+
 cp dictionaries/dictionaries/fr/index.aff $RPM_BUILD_ROOT/%{_datadir}/hunspell/fr_FR.aff
 cp dictionaries/dictionaries/fr/index.dic $RPM_BUILD_ROOT/%{_datadir}/hunspell/fr_FR.dic
 
@@ -178,6 +189,12 @@ cp dictionaries/dictionaries/sv/index.dic $RPM_BUILD_ROOT/%{_datadir}/hunspell/s
 %defattr(-,root,root,-)
 %{_datadir}/hunspell/et_ET.aff
 %{_datadir}/hunspell/et_ET.dic
+
+
+%files fi_FI
+%defattr(-,root,root,-)
+%{_datadir}/hunspell/fi_FI.aff
+%{_datadir}/hunspell/fi_FI.dic
 
 
 %files fr_FR
