@@ -30,7 +30,7 @@ es_ES:
   name: Spanish (or Castilian)
   path: es
   
-et_ET:
+et_EE:
   license: LGPL-2.1
   name: Estonian
   path: et

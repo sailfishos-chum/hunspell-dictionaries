@@ -51,11 +51,11 @@ License:        GPL-3.0 OR LGPL-3.0 OR MPL-1.1
 %{summary}.
 
 
-%package et_ET
+%package et_EE
 Summary:        Hunspell Dictionary for Estonian
 License:        LGPL-2.1
 
-%description et_ET
+%description et_EE
 %{summary}.
 
 
@@ -130,8 +130,8 @@ cp dictionaries/dictionaries/en/index.dic $RPM_BUILD_ROOT/%{_datadir}/hunspell/e
 cp dictionaries/dictionaries/es/index.aff $RPM_BUILD_ROOT/%{_datadir}/hunspell/es_ES.aff
 cp dictionaries/dictionaries/es/index.dic $RPM_BUILD_ROOT/%{_datadir}/hunspell/es_ES.dic
 
-cp dictionaries/dictionaries/et/index.aff $RPM_BUILD_ROOT/%{_datadir}/hunspell/et_ET.aff
-cp dictionaries/dictionaries/et/index.dic $RPM_BUILD_ROOT/%{_datadir}/hunspell/et_ET.dic
+cp dictionaries/dictionaries/et/index.aff $RPM_BUILD_ROOT/%{_datadir}/hunspell/et_EE.aff
+cp dictionaries/dictionaries/et/index.dic $RPM_BUILD_ROOT/%{_datadir}/hunspell/et_EE.dic
 
 cp dictionaries/dictionaries/../../extras/fi/index.aff $RPM_BUILD_ROOT/%{_datadir}/hunspell/fi_FI.aff
 cp dictionaries/dictionaries/../../extras/fi/index.dic $RPM_BUILD_ROOT/%{_datadir}/hunspell/fi_FI.dic
@@ -185,10 +185,10 @@ cp dictionaries/dictionaries/sv/index.dic $RPM_BUILD_ROOT/%{_datadir}/hunspell/s
 %{_datadir}/hunspell/es_ES.dic
 
 
-%files et_ET
+%files et_EE
 %defattr(-,root,root,-)
-%{_datadir}/hunspell/et_ET.aff
-%{_datadir}/hunspell/et_ET.dic
+%{_datadir}/hunspell/et_EE.aff
+%{_datadir}/hunspell/et_EE.dic
 
 
 %files fi_FI
