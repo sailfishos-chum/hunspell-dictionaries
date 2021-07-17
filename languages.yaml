@@ -1,0 +1,64 @@
+# add in alphabetical order by key
+# keys in format langcode_COUNTRYCODE
+# subkeys
+#   - licence
+#   - name
+#   - path in form of subfolder within dictionaries/dictionaries/
+
+cs_CZ:
+  license: GPL-2.0
+  name: Czech
+  path: cs
+
+da_DK:
+  license: GPL-2.0 OR LGPL-2.1 OR MPL-1.1
+  name: Danish
+  path: da
+    
+de_DE:
+  license: GPL-2.0 OR GPL-3.0
+  name: German
+  path: de
+
+en_US:
+  license: MIT and BSD
+  name: English US
+  path: en
+
+es_ES:
+  license: GPL-3.0 OR LGPL-3.0 OR MPL-1.1
+  name: Spanish (or Castilian)
+  path: es
+  
+et_ET:
+  license: LGPL-2.1
+  name: Estonian
+  path: et
+
+fr_FR:
+  license: MPL-2.0
+  name: French
+  path: fr
+
+hu_HU:
+  license: GPL-2.0 OR LGPL-2.1 OR MPL-1.1
+  name: Hungarian
+  path: hu
+
+nl_NL:
+  license: BSD-3-Clause OR CC-BY-3.0
+  name: Dutch (or Flemish)
+  path: nl
+
+ru_RU:
+  license: LGPL-3.0
+  name: Russian
+  path: ru  
+  
+sv_SE:
+  license: LGPL-3.0
+  name: Swedish
+  path: sv
+  
+  
+  
