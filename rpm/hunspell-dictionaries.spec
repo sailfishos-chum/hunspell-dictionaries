@@ -4,6 +4,7 @@ Name:           hunspell-lang
 Version:        21.07.17
 Release:        1
 Group:          System
+URL:            https://github.com/sailfishos-chum/hunspell-dictionaries
 Source0:        %{name}-%{version}.tar.bz2
 BuildArch:      noarch
 
@@ -18,6 +19,10 @@ License:        GPL-2.0
 %description cs_CZ
 %{summary}.
 
+PackageName: Hunspell Czech
+Category:
+  - Office
+  - Dictionary
 
 %package da_DK
 Summary:        Hunspell Dictionary for Danish
@@ -26,6 +31,10 @@ License:        GPL-2.0 OR LGPL-2.1 OR MPL-1.1
 %description da_DK
 %{summary}.
 
+PackageName: Hunspell Danish
+Category:
+  - Office
+  - Dictionary
 
 %package de_DE
 Summary:        Hunspell Dictionary for German
@@ -34,6 +43,10 @@ License:        GPL-2.0 OR GPL-3.0
 %description de_DE
 %{summary}.
 
+PackageName: Hunspell German
+Category:
+  - Office
+  - Dictionary
 
 %package en_US
 Summary:        Hunspell Dictionary for English US
@@ -42,6 +55,10 @@ License:        MIT and BSD
 %description en_US
 %{summary}.
 
+PackageName: Hunspell English US
+Category:
+  - Office
+  - Dictionary
 
 %package es_ES
 Summary:        Hunspell Dictionary for Spanish (or Castilian)
@@ -50,6 +67,10 @@ License:        GPL-3.0 OR LGPL-3.0 OR MPL-1.1
 %description es_ES
 %{summary}.
 
+PackageName: Hunspell Spanish
+Category:
+  - Office
+  - Dictionary
 
 %package et_EE
 Summary:        Hunspell Dictionary for Estonian
@@ -58,6 +79,10 @@ License:        LGPL-2.1
 %description et_EE
 %{summary}.
 
+PackageName: Hunspell Estonian
+Category:
+  - Office
+  - Dictionary
 
 %package fi_FI
 Summary:        Hunspell Dictionary for Finnish
@@ -66,6 +91,10 @@ License:        Unknown
 %description fi_FI
 %{summary}.
 
+PackageName: Hunspell Finnish
+Category:
+  - Office
+  - Dictionary
 
 %package fr_FR
 Summary:        Hunspell Dictionary for French
@@ -74,6 +103,10 @@ License:        MPL-2.0
 %description fr_FR
 %{summary}.
 
+PackageName: Hunspell French
+Category:
+  - Office
+  - Dictionary
 
 %package hu_HU
 Summary:        Hunspell Dictionary for Hungarian
@@ -82,6 +115,10 @@ License:        GPL-2.0 OR LGPL-2.1 OR MPL-1.1
 %description hu_HU
 %{summary}.
 
+PackageName: Hunspell Hungarian
+Category:
+  - Office
+  - Dictionary
 
 %package nl_NL
 Summary:        Hunspell Dictionary for Dutch (or Flemish)
@@ -90,6 +127,10 @@ License:        BSD-3-Clause OR CC-BY-3.0
 %description nl_NL
 %{summary}.
 
+PackageName: Hunspell Dutch
+Category:
+  - Office
+  - Dictionary
 
 %package ru_RU
 Summary:        Hunspell Dictionary for Russian
@@ -98,6 +139,10 @@ License:        LGPL-3.0
 %description ru_RU
 %{summary}.
 
+PackageName: Hunspell Russian
+Category:
+  - Office
+  - Dictionary
 
 %package sv_SE
 Summary:        Hunspell Dictionary for Swedish
@@ -106,6 +151,10 @@ License:        LGPL-3.0
 %description sv_SE
 %{summary}.
 
+PackageName: Hunspell Swedish
+Category:
+  - Office
+  - Dictionary
 
 %prep
 %setup -q -n %{name}-%{version}
