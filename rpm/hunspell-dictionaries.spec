@@ -20,7 +20,7 @@ License:        GPL-2.0
 %{summary}.
 
 PackageName: Hunspell Czech
-Category:
+Categories:
   - Office
   - Dictionary
 
@@ -32,7 +32,7 @@ License:        GPL-2.0 OR LGPL-2.1 OR MPL-1.1
 %{summary}.
 
 PackageName: Hunspell Danish
-Category:
+Categories:
   - Office
   - Dictionary
 
@@ -44,7 +44,7 @@ License:        GPL-2.0 OR GPL-3.0
 %{summary}.
 
 PackageName: Hunspell German
-Category:
+Categories:
   - Office
   - Dictionary
 
@@ -56,7 +56,7 @@ License:        MIT and BSD
 %{summary}.
 
 PackageName: Hunspell English US
-Category:
+Categories:
   - Office
   - Dictionary
 
@@ -68,7 +68,7 @@ License:        GPL-3.0 OR LGPL-3.0 OR MPL-1.1
 %{summary}.
 
 PackageName: Hunspell Spanish
-Category:
+Categories:
   - Office
   - Dictionary
 
@@ -80,7 +80,7 @@ License:        LGPL-2.1
 %{summary}.
 
 PackageName: Hunspell Estonian
-Category:
+Categories:
   - Office
   - Dictionary
 
@@ -92,7 +92,7 @@ License:        Unknown
 %{summary}.
 
 PackageName: Hunspell Finnish
-Category:
+Categories:
   - Office
   - Dictionary
 
@@ -104,7 +104,7 @@ License:        MPL-2.0
 %{summary}.
 
 PackageName: Hunspell French
-Category:
+Categories:
   - Office
   - Dictionary
 
@@ -116,7 +116,7 @@ License:        GPL-2.0 OR LGPL-2.1 OR MPL-1.1
 %{summary}.
 
 PackageName: Hunspell Hungarian
-Category:
+Categories:
   - Office
   - Dictionary
 
@@ -128,7 +128,7 @@ License:        BSD-3-Clause OR CC-BY-3.0
 %{summary}.
 
 PackageName: Hunspell Dutch
-Category:
+Categories:
   - Office
   - Dictionary
 
@@ -140,7 +140,7 @@ License:        LGPL-3.0
 %{summary}.
 
 PackageName: Hunspell Russian
-Category:
+Categories:
   - Office
   - Dictionary
 
@@ -152,7 +152,7 @@ License:        LGPL-3.0
 %{summary}.
 
 PackageName: Hunspell Swedish
-Category:
+Categories:
   - Office
   - Dictionary
 
